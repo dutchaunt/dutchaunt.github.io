@@ -7,5 +7,6 @@ alt: fashion-sales-forecasting
 project-date: April 2023
 client: Resonance Companies
 category: Sales Forecasting
+title: Fashion e-commerce sales forecasting
 description: Forecasting e-commerce sales of our fashion brands.
 ---
