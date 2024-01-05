@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 2
+date: 2021-01-01
+img: healthcare.jpeg
+alt: healthcare
+project-date: January 2021
+client: Cityblock Health
+category: Healthcare
+title: Healthcare Data Science
+description: Predicting patient health based on EHR data.
+---
