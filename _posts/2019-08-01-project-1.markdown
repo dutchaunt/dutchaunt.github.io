@@ -7,5 +7,6 @@ alt: vertical-farming-optimization
 project-date: August 2019
 client: Bowery Farming
 category: Value Chain Optimization
+title: Vertical Farming Supply Chain Optimization
 description: Optimizing scheduling and allocation decisions.
 ---
