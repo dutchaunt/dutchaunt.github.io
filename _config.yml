@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
+title: Dutch Aunt
 email: dutch.aunt.data@gmail.com
 url: https:/dutchaunt.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "data science, consulting"
 skills: "Data Science - Machine Learning - Operations Research"
-meta_author: Aunt Dutch
+meta_author: Hoogeveen Marianne
 
 # Google webmaster tools
 google_verify:
