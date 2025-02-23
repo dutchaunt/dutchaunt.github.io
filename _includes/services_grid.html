@@ -9,15 +9,9 @@
         </div>
         <div class="services-flex-row">
             {% for service in site.services %}
-            <div class="services-flex-item service-item">
-                <a href="#serviceModal-{{ service.modal-id }}" class="service-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-info-circle fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="img/services/{{ service.img }}" class="img-responsive" alt="{{ service.alt }}">
-                </a>
+            <div class="col-md-4 service-item">
+                <h3>{{ service.title }}</h3>
+                <p>{{ service.description }}</p>
             </div>
             {% endfor %}
         </div>
