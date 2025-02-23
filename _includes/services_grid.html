@@ -8,7 +8,8 @@
             </div>
         </div>
         <div class="services-flex-row">
-            {% for service in site.services %}
+            {% assign sorted_services = site.services | sort: "modal-id" %}
+            {% for service in sorted_services %}
             <div class="col-md-4 service-item">
                 <h3>{{ service.title }}</h3>
                 <p>{{ service.description }}</p>
