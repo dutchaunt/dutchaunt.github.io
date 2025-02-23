@@ -1,0 +1,25 @@
+<!-- Services Grid Section -->
+<section id="services">
+    <div class="container services-flex-grid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Services</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="services-flex-row">
+            {% for service in site.services %}
+            <div class="services-flex-item service-item">
+                <a href="#serviceModal-{{ service.modal-id }}" class="service-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-info-circle fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/services/{{ service.img }}" class="img-responsive" alt="{{ service.alt }}">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
